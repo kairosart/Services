@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENUMERATION/Web Server.md",
+                "file": "EXPLOITATION/Connecting the Machine.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Web Server"
+              "title": "Connecting the Machine"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "EXPLOITATION/Gaining initial access.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Gaining initial access"
             }
           },
           {
@@ -43,16 +43,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENUMERATION/Network nmap.md",
+                "file": "PRIVILEGE ESCALATION/Services.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Network nmap"
+              "title": "Services"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ENUMERATION/Web Server.md",
+                "file": "PRIVILEGE ESCALATION/Services.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Web Server"
+              "title": "Outline of Services"
             }
           },
           {
@@ -264,14 +265,24 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "8b08ec97de616fe5",
+  "active": "940b7450838737ae",
   "lastOpenFiles": [
+    "Screenshot_2025-10-21_06-26-14.png",
+    "EXPLOITATION/Connecting the Machine.md",
+    "PRIVILEGE ESCALATION/Services.md",
+    "ENUMERATION/Kerbrute.md",
+    "PRIVILEGE ESCALATION",
+    "ENUMERATION/Network nmap.md",
+    "EXPLOITATION/Gaining initial access.md",
+    "Screenshot_2025-10-21_06-17-10.png",
+    "README.md",
+    "Screenshot_2025-10-21_06-11-43.png",
+    "Screenshot_2025-10-21_05-33-48.png",
+    "ENUMERATION/Web Server.md",
+    "EXPLOITATION",
+    "Screenshot_2025-10-21_05-23-20.png",
     "Screenshot_2025-10-21_04-55-11.png",
     "ENUMERATION/Metasploit.md",
-    "README.md",
-    "ENUMERATION/Network nmap.md",
-    "Untitled",
-    "ENUMERATION/Web Server.md",
     "Screenshot_2025-10-20_06-21-34.png",
     "Screenshot_2025-10-20_06-04-00.png",
     "Screenshot_2025-10-20_05-18-51.png",
@@ -290,16 +301,10 @@
     "docs",
     "Untitled Folder",
     "images/Screenshot_2025-10-18_05-41-08.png",
-    "images/Screenshot_2025-10-18_05-29-28.png",
-    "images/Screenshot_2025-10-17_06-21-29.png",
-    "images/Screenshot_2025-10-17_05-13-22.png",
-    "images/Screenshot_2025-10-17_06-10-10.png",
-    "images/Screenshot_2025-10-17_06-06-16.png",
     "PRIVILEGE ESCALATION",
     "EXPLOITATION/Ghostcat exploit",
     "EXPLOITATION",
     "images",
-    "ENUMERATION",
     "EXPLOITATION/SMB credentials capturing.md",
     "PRIVILEGE ESCALATION/System flag.md",
     "PRIVILEGE ESCALATION/Pipe Impersonation (PrintSpooler).md",
@@ -307,10 +312,6 @@
     "EXPLOITATION/Initial access.md",
     "ENUMERATION/SMB.md",
     "ENUMERATION/Redis.md",
-    "ENUMERATION/Network Map.md",
-    "VulnActive/README.md",
-    "ENUMERATION/Nmap.md",
-    "ENUMERATION/Exploitation Scenarios.md",
-    "ENUMERATION/Redis (Port 6379).md"
+    "ENUMERATION/Network Map.md"
   ]
 }

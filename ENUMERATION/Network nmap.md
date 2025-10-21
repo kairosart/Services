@@ -80,7 +80,6 @@ nmap -A  <MACHINE IP>
 | **RPC Access**          | Ports 135 and 593 could be used for WMI-based attacks or lateral movement.                                            |
 
 ---
-# Network & service discovery (nmap)
 
 ## Nmap services
 Use nmap to confirm services and do light scripting enumeration.
