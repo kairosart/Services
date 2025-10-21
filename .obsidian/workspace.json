@@ -174,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PRIVILEGE ESCALATION/Services.md",
+                "file": "images/Screenshot_2025-10-20_05-18-51.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Services"
+              "title": "Outline of Screenshot_2025-10-20_05-18-51"
             }
           },
           {
@@ -265,27 +265,27 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "940b7450838737ae",
+  "active": "49d2e38fa784abc2",
   "lastOpenFiles": [
-    "Screenshot_2025-10-21_06-26-14.png",
-    "EXPLOITATION/Connecting the Machine.md",
     "PRIVILEGE ESCALATION/Services.md",
+    "images/Screenshot_2025-10-21_06-26-14.png",
+    "EXPLOITATION/Connecting the Machine.md",
     "ENUMERATION/Kerbrute.md",
     "PRIVILEGE ESCALATION",
     "ENUMERATION/Network nmap.md",
     "EXPLOITATION/Gaining initial access.md",
-    "Screenshot_2025-10-21_06-17-10.png",
+    "images/Screenshot_2025-10-21_06-17-10.png",
     "README.md",
-    "Screenshot_2025-10-21_06-11-43.png",
-    "Screenshot_2025-10-21_05-33-48.png",
+    "images/Screenshot_2025-10-21_06-11-43.png",
+    "images/Screenshot_2025-10-21_05-33-48.png",
     "ENUMERATION/Web Server.md",
     "EXPLOITATION",
-    "Screenshot_2025-10-21_05-23-20.png",
-    "Screenshot_2025-10-21_04-55-11.png",
+    "images/Screenshot_2025-10-21_05-23-20.png",
+    "images/Screenshot_2025-10-21_04-55-11.png",
     "ENUMERATION/Metasploit.md",
-    "Screenshot_2025-10-20_06-21-34.png",
-    "Screenshot_2025-10-20_06-04-00.png",
-    "Screenshot_2025-10-20_05-18-51.png",
+    "images/Screenshot_2025-10-20_06-21-34.png",
+    "images/Screenshot_2025-10-20_06-04-00.png",
+    "images/Screenshot_2025-10-20_05-18-51.png",
     "images",
     "images/Screenshot_2025-10-20_05-00-20.png",
     "ENUMERATION",
@@ -300,7 +300,6 @@
     "ENUMERATION/Network map.md",
     "docs",
     "Untitled Folder",
-    "images/Screenshot_2025-10-18_05-41-08.png",
     "PRIVILEGE ESCALATION",
     "EXPLOITATION/Ghostcat exploit",
     "EXPLOITATION",
