@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "ENUMERATION/Web Server.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Web Server"
             }
           },
           {
@@ -43,28 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRIVILEGE ESCALATION/Root flag.md",
+                "file": "ENUMERATION/Network nmap.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Root flag"
-            }
-          },
-          {
-            "id": "e1707c2d066b6e61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PRIVILEGE ESCALATION/User's privileges.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "User's privileges"
+              "title": "Network nmap"
             }
           }
         ]
@@ -188,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "ENUMERATION/Web Server.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Web Server"
             }
           },
           {
@@ -281,7 +266,18 @@
   },
   "active": "8b08ec97de616fe5",
   "lastOpenFiles": [
+    "Screenshot_2025-10-21_04-55-11.png",
+    "ENUMERATION/Metasploit.md",
     "README.md",
+    "ENUMERATION/Network nmap.md",
+    "Untitled",
+    "ENUMERATION/Web Server.md",
+    "Screenshot_2025-10-20_06-21-34.png",
+    "Screenshot_2025-10-20_06-04-00.png",
+    "Screenshot_2025-10-20_05-18-51.png",
+    "images",
+    "images/Screenshot_2025-10-20_05-00-20.png",
+    "ENUMERATION",
     "index.md",
     "PRIVILEGE ESCALATION/User's privileges.md",
     "PRIVILEGE ESCALATION/Root flag.md",
@@ -300,11 +296,6 @@
     "images/Screenshot_2025-10-17_06-10-10.png",
     "images/Screenshot_2025-10-17_06-06-16.png",
     "PRIVILEGE ESCALATION",
-    "Untitled",
-    "images/Screenshot_2025-10-17_05-56-20.png",
-    "images/Screenshot_2025-10-16_04-52-48.png",
-    "images/Screenshot_2025-10-16_05-47-40.png",
-    "images/Screenshot_2025-10-16_05-31-50.png",
     "EXPLOITATION/Ghostcat exploit",
     "EXPLOITATION",
     "images",
@@ -317,8 +308,6 @@
     "ENUMERATION/SMB.md",
     "ENUMERATION/Redis.md",
     "ENUMERATION/Network Map.md",
-    "docs/lib/metadata.json",
-    "docs/lib/media",
     "VulnActive/README.md",
     "ENUMERATION/Nmap.md",
     "ENUMERATION/Exploitation Scenarios.md",
