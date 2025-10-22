@@ -1,0 +1,39 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    paths:
+      - '**.md'   # run only when Markdown files change
+  workflow_dispatch:  # allows manual runs
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base texlive-xetex texlive-fonts-recommended texlive-fonts-extra
+
+      - name: Merge all Markdown files into one
+        run: |
+          echo "Merging Markdown files..."
+          find . -type f -name "*.md" | sort > md_files.txt
+          cat $(cat md_files.txt) > merged.md
+
+      - name: Convert merged.md → PDF
+        run: |
+          pandoc merged.md -o combined.pdf --from gfm --pdf-engine=xelatex \
+            --variable mainfont="DejaVu Sans" \
+            --variable geometry:margin=1in \
+            --metadata title="Project Documentation"
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Documentation-PDF
+          path: combined.pdf

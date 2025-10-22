@@ -3,7 +3,7 @@
   "maxLevel": "6",
   "displayHeader": true,
   "displayFooter": true,
-  "headerTemplate": "",
+  "headerTemplate": "<span style=\"padding: 0 3px;\"><h3>Document title</span></h3>",
   "footerTemplate": "<div style=\"width:100%;display:flex;justify-content:space-between;align-items:center;font-size:10px;margin:0 40px;\"><span >E. Astasio 2025</span><span><span class=\"pageNumber\"></span> / <span class=\"totalPages\"></span></span></div>\n\n\n\n\n\n",
   "printBackground": false,
   "generateTaggedPDF": false,
