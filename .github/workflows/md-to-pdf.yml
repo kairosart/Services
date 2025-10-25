@@ -19,11 +19,18 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-latex-base texlive-xetex texlive-fonts-recommended texlive-fonts-extra
 
-      - name: Merge all Markdown files into one
+      - name: Merge all Markdown files into one (null-safe)
         run: |
-          echo "Merging Markdown files..."
-          find . -type f -name "*.md" | sort > md_files.txt
-          cat $(cat md_files.txt) > merged.md
+          echo "Merging Markdown files (null-safe)..."
+          rm -f merged.md
+          # Find all .md files except CI and node_modules, handle spaces/newlines safely
+          find . -type f -name "*.md" ! -path "./.github/*" ! -path "./node_modules/*" -print0 \
+            | sort -z \
+            | while IFS= read -r -d '' file; do
+                printf '\n\n<!-- FILE: %s -->\n\n' "$file" >> merged.md
+                cat "$file" >> merged.md
+              done
+          echo "Merged into merged.md"
 
       - name: Convert merged.md → PDF
         run: |
