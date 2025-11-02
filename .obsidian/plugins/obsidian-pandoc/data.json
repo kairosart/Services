@@ -5,11 +5,11 @@
   "injectThemeCSS": false,
   "customCSSFile": null,
   "displayYAMLFrontmatter": false,
-  "linkStrippingBehaviour": "text",
+  "linkStrippingBehaviour": "unchanged",
   "highDPIDiagrams": true,
-  "pandoc": null,
-  "pdflatex": null,
-  "outputFolder": "/media/sf_obsidian/Docx",
+  "pandoc": "/usr/bin/pandoc",
+  "pdflatex": "/usr/bin/pdflatex",
+  "outputFolder": "/tmp",
   "extraArguments": "",
   "exportFrom": "md"
 }
